@@ -1,7 +1,5 @@
 package com.jnr.alpha;
 
-import com.jnr.util.CharMap;
-
 import java.util.Map;
 
 /**
@@ -9,12 +7,11 @@ import java.util.Map;
  */
 
 public class Encryption {
-    public String run(String data) {
+    public String run(String data, Map<Integer, Character> map) {
         StringBuilder encrypted = new StringBuilder();
 
         String reversed = new StringBuilder(data).reverse().toString();
 
-        Map<Integer, Character> map = CharMap.getCharMap();
 
         for (char c : reversed.toCharArray()) {
             if (Character.isLetter(c)) {

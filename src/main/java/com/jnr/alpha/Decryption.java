@@ -1,7 +1,5 @@
 package com.jnr.alpha;
 
-import com.jnr.util.CharMap;
-
 import java.util.Map;
 
 /**
@@ -9,7 +7,7 @@ import java.util.Map;
  */
 
 public class Decryption {
-    public static String decrypt(String data) {
+    public String decrypt(String data,  Map<Integer, Character> map) {
         StringBuilder root = new StringBuilder(data);
         root.reverse();
 
@@ -21,7 +19,6 @@ public class Decryption {
 
                 root.replace(index, index + 1, String.valueOf(decrypted_char));
             } else {
-                Map<Integer, Character> map = CharMap.getCharMap();
 
                 map.values().forEach(val -> {
                     if (c == val) {
