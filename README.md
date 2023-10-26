@@ -1,6 +1,6 @@
 <h1 align="center">Alpha</h1>
 
-Alpha is a pretty basic encryption "algorithm".
+Alpha is a pretty basic encryption "algorithm" made for fun.
 
 # How it works
 1. Once a string is passed in it gets reversed for some fun.
