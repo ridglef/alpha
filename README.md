@@ -9,7 +9,7 @@ Alpha is a pretty basic encryption "algorithm" made for fun.
 4. If the position is in the double-digits it is replaced with a unique unicode character.
 
 # How it looks
-![image](https://github.com/ethaanol/alpha/assets/142350050/c24665c4-eb7d-4adf-b424-6f46f5fc9587)
+![image](https://github.com/ethaanol/alpha/blob/main/unknown.jpeg?raw=true)
 
 # More
 The interesting part is the decryption since the actual encryption is basically nothing and took 10 minutes to decrypt. <br>
